@@ -26,61 +26,25 @@
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="133" selection-start="1619" selection-end="1619" vertical-scroll-proportion="-11.25" vertical-offset="150" max-vertical-offset="705">
+            <state line="37" column="0" selection-start="1108" selection-end="1108" vertical-scroll-proportion="-13.041667" vertical-offset="107" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="listResults.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/itunes/listResults.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="33" selection-start="261" selection-end="261" vertical-scroll-proportion="2.2916667" vertical-offset="205" max-vertical-offset="735">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/users/login.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="4" selection-start="292" selection-end="335" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItunesController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ItunesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="44" selection-start="346" selection-end="346" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="495">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MovieController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MovieController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/MovieController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="50" selection-start="2434" selection-end="2434" vertical-scroll-proportion="-15.208333" vertical-offset="715" max-vertical-offset="1290">
+            <state line="170" column="48" selection-start="5995" selection-end="5995" vertical-scroll-proportion="0.5849582" vertical-offset="2055" max-vertical-offset="3345">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="createManually.blade.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/movies/createManually.blade.php">
+      <file leaf-file-name="Movie.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/Movie.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="3" selection-start="477" selection-end="477" vertical-scroll-proportion="0.45192307" vertical-offset="80" max-vertical-offset="600">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create.blade.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/movies/create.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="555">
+            <state line="10" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
@@ -96,9 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/ImdbController.php" />
-        <option value="$PROJECT_DIR$/app/Itp/Api/ImdbSearch.php" />
-        <option value="$PROJECT_DIR$/app/models/Dvd.php" />
         <option value="$PROJECT_DIR$/app/views/dvds/create.php" />
         <option value="$PROJECT_DIR$/app/config/database.php" />
         <option value="$PROJECT_DIR$/app/views/dvds/dvds-list.php" />
@@ -109,7 +70,6 @@
         <option value="$PROJECT_DIR$/app/controllers/DvdController.php" />
         <option value="$PROJECT_DIR$/app/views/layout.blade.php" />
         <option value="$PROJECT_DIR$/app/views/dvds/search.php" />
-        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/app/views/imdb/search.php" />
         <option value="$PROJECT_DIR$/app/views/itunes/search.php" />
         <option value="$PROJECT_DIR$/app/views/itunes/listResults.php" />
@@ -119,33 +79,47 @@
         <option value="$PROJECT_DIR$/app/views/movies/create.php" />
         <option value="$PROJECT_DIR$/app/Itp/Api/ItunesSearch.php" />
         <option value="$PROJECT_DIR$/app/filters.php" />
-        <option value="$PROJECT_DIR$/app/views/itunes/search.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/movies/search.blade.php" />
         <option value="$PROJECT_DIR$/app/views/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/app/views/login.blade.php" />
         <option value="$PROJECT_DIR$/app/views/users/register.blade.php" />
-        <option value="$PROJECT_DIR$/app/views/layouts/base.blade.php" />
         <option value="$PROJECT_DIR$/app/models/Genre.php" />
         <option value="$PROJECT_DIR$/app/models/Device.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/views/movies/movies-list.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/LoginController.php" />
-        <option value="$PROJECT_DIR$/app/models/Movie.php" />
-        <option value="$PROJECT_DIR$/app/controllers/ItunesController.php" />
-        <option value="$PROJECT_DIR$/app/views/movies/create.blade.php" />
-        <option value="$PROJECT_DIR$/app/routes.php" />
         <option value="$PROJECT_DIR$/app/views/itunes/listResults.blade.php" />
-        <option value="$PROJECT_DIR$/app/controllers/MovieController.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/users.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/movies.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/app/controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/users.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/views/admin/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/users/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/users/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/movies/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/movies/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/movies/search.blade.php" />
         <option value="$PROJECT_DIR$/app/views/movies/createManually.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/temp.php" />
+        <option value="$PROJECT_DIR$/app/views/hello.php" />
+        <option value="$PROJECT_DIR$/app/views/users/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/app/views/movies/create.blade.php" />
+        <option value="$PROJECT_DIR$/app/controllers/ItunesController.php" />
+        <option value="$PROJECT_DIR$/app/views/itunes/search.blade.php" />
+        <option value="$PROJECT_DIR$/app/views/layouts/base.blade.php" />
+        <option value="$PROJECT_DIR$/app/models/Movie.php" />
+        <option value="$PROJECT_DIR$/app/controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/app/controllers/MovieController.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
-    <option name="y" value="117" />
-    <option name="width" value="1116" />
-    <option name="height" value="687" />
+    <option name="x" value="-1" />
+    <option name="y" value="23" />
+    <option name="width" value="776" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -317,7 +291,69 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP-Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP-Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="itunes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP-Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP-Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP-Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PHP-Final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="storage" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sessions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -386,7 +422,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHP-DVD-Laravel/app/controllers/DvdController.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PHP-Midterm-Laravel/app/views/restaurants/review.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -394,6 +430,8 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/views/users" />
+      <recent name="$PROJECT_DIR$/app/views/movies" />
+      <recent name="$PROJECT_DIR$/app/views/admin" />
       <recent name="$PROJECT_DIR$/app/views/layouts" />
     </key>
   </component>
@@ -423,27 +461,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="117" width="1116" height="687" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="23" width="776" height="873" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3256705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2821229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.260218" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32604373" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -467,49 +505,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/views/itunes/listResults.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="49" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0" vertical-offset="254" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="6" selection-start="553" selection-end="553" vertical-scroll-proportion="0.0" vertical-offset="132" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="56" selection-start="1135" selection-end="1135" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Itp/Api/ItunesSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="12" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Itp/Api/ItunesSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="90" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/itunes/search.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="86" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="435" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="40" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="735">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/itunes/listResults.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="19" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="420">
           <folding />
         </state>
@@ -529,16 +524,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="48" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="18" column="48" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/movies-list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="6" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <folding />
-        </state>
+        <state line="21" column="6" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Movie.php">
@@ -565,9 +556,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/MovieController.php">
@@ -602,16 +591,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.87234" vertical-offset="2290" max-vertical-offset="2760" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../PHP-Midterm-Laravel/app/views/restaurants/review.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../PHP-Midterm-Laravel/app/views/restaurants/all.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../PHP-Auth-A3/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="2726" vertical-scroll-proportion="-2.559322" vertical-offset="1208" max-vertical-offset="1680" />
@@ -629,16 +608,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="9" selection-start="504" selection-end="504" vertical-scroll-proportion="0.63192904" vertical-offset="0" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="12" selection-start="970" selection-end="970" vertical-scroll-proportion="2.2077923" vertical-offset="0" max-vertical-offset="1560">
-          <folding />
-        </state>
+        <state line="19" column="9" selection-start="504" selection-end="504" vertical-scroll-proportion="0.63192904" vertical-offset="0" max-vertical-offset="675" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/filters.php">
@@ -646,140 +616,167 @@
         <state line="40" column="31" selection-start="1091" selection-end="1091" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="1260" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="461" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/hello.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Itp/Api/ItunesSearch.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="58" selection-start="498" selection-end="498" vertical-scroll-proportion="0.55314535" vertical-offset="0" max-vertical-offset="461" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="205" selection-end="205" vertical-scroll-proportion="0.30612245" vertical-offset="75" max-vertical-offset="675">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Device.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.26239067" vertical-offset="0" max-vertical-offset="343">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="155" selection-end="155" vertical-scroll-proportion="0.26239067" vertical-offset="0" max-vertical-offset="343" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Genre.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="152" selection-end="152" vertical-scroll-proportion="0.17492712" vertical-offset="0" max-vertical-offset="343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/movies-list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="67" selection-start="462" selection-end="462" vertical-scroll-proportion="0.54635763" vertical-offset="90" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="83" selection-start="1016" selection-end="1016" vertical-scroll-proportion="-32.5" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="41" selection-start="1681" selection-end="1681" vertical-scroll-proportion="-30.625" vertical-offset="90" max-vertical-offset="1410">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="51" selection-start="426" selection-end="426" vertical-scroll-proportion="0.20608108" vertical-offset="133" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/search.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <folding>
-            <marker date="1396916644000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396916644000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1396916644000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/Movie.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="45" selection-start="644" selection-end="644" vertical-scroll-proportion="0.6334459" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/itunes/search.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="579">
-          <folding />
-        </state>
+        <state line="9" column="31" selection-start="152" selection-end="152" vertical-scroll-proportion="0.17492712" vertical-offset="0" max-vertical-offset="343" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="4" selection-start="292" selection-end="335" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="600">
+        <state line="0" column="0" selection-start="0" selection-end="80" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="12" selection-start="966" selection-end="966" vertical-scroll-proportion="0.63003665" vertical-offset="676" max-vertical-offset="1575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="46" selection-start="559" selection-end="559" vertical-scroll-proportion="0.5342857" vertical-offset="113" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="47" selection-start="312" selection-end="312" vertical-scroll-proportion="-7.3333335" vertical-offset="19" max-vertical-offset="465" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="83" selection-start="1016" selection-end="1016" vertical-scroll-proportion="0.6694215" vertical-offset="537" max-vertical-offset="900" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/movies/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="59" selection-start="585" selection-end="585" vertical-scroll-proportion="0.5542857" vertical-offset="106" max-vertical-offset="510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/movies/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="47" selection-start="233" selection-end="233" vertical-scroll-proportion="0.31428573" vertical-offset="55" max-vertical-offset="435" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="652" selection-end="718" vertical-scroll-proportion="0.57253885" vertical-offset="289" max-vertical-offset="675" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="21" selection-start="2611" selection-end="2621" vertical-scroll-proportion="0.44041452" vertical-offset="1075" max-vertical-offset="1605" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PHP-Midterm-Laravel/app/views/restaurants/review.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="4" selection-start="512" selection-end="512" vertical-scroll-proportion="0.5630027" vertical-offset="90" max-vertical-offset="525" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PHP-Midterm-Laravel/app/views/restaurants/all.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../PHP-Midterm-Laravel/app/controllers/RestaurantController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/movies/movies-list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="5" selection-start="81" selection-end="514" vertical-scroll-proportion="-12.708333" vertical-offset="10" max-vertical-offset="420" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/hello.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="7" selection-start="7844" selection-end="7844" vertical-scroll-proportion="0.7587131" vertical-offset="332" max-vertical-offset="705">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/views/users/dashboard.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="133" selection-start="1619" selection-end="1619" vertical-scroll-proportion="-11.25" vertical-offset="150" max-vertical-offset="705">
+        <state line="28" column="25" selection-start="934" selection-end="934" vertical-scroll-proportion="0.672" vertical-offset="0" max-vertical-offset="870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/movies/createManually.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="47" selection-start="129" selection-end="129" vertical-scroll-proportion="0.192" vertical-offset="0" max-vertical-offset="625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/itunes/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="36" selection-start="499" selection-end="499" vertical-scroll-proportion="0.48" vertical-offset="0" max-vertical-offset="625" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/movies/search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="44" selection-start="333" selection-end="333" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/ItunesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="346" selection-end="346" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="495">
+        <state line="11" column="34" selection-start="210" selection-end="210" vertical-scroll-proportion="0.12711865" vertical-offset="0" max-vertical-offset="708">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/base.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="999" selection-end="999" vertical-scroll-proportion="0.66906476" vertical-offset="0" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/itunes/listResults.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="33" selection-start="261" selection-end="261" vertical-scroll-proportion="2.2916667" vertical-offset="205" max-vertical-offset="735">
+        <state line="7" column="0" selection-start="81" selection-end="174" vertical-scroll-proportion="0.13091922" vertical-offset="11" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/MovieController.php">
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="50" selection-start="2434" selection-end="2434" vertical-scroll-proportion="-15.208333" vertical-offset="715" max-vertical-offset="1290">
+        <state line="37" column="0" selection-start="1108" selection-end="1108" vertical-scroll-proportion="-13.041667" vertical-offset="107" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="702" selection-end="702" vertical-scroll-proportion="-19.375" vertical-offset="0" max-vertical-offset="555">
+        <state line="14" column="3" selection-start="272" selection-end="272" vertical-scroll-proportion="0.2924791" vertical-offset="0" max-vertical-offset="718">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/createManually.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/models/Movie.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="3" selection-start="477" selection-end="477" vertical-scroll-proportion="0.45192307" vertical-offset="80" max-vertical-offset="600">
+        <state line="10" column="0" selection-start="255" selection-end="255" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="40" selection-start="299" selection-end="299" vertical-scroll-proportion="0.0626741" vertical-offset="75" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/MovieController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="48" selection-start="5995" selection-end="5995" vertical-scroll-proportion="0.5849582" vertical-offset="2055" max-vertical-offset="3345">
           <folding />
         </state>
       </provider>
