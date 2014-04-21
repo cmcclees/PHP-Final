@@ -4,32 +4,19 @@ class Movie extends Eloquent{
 
     public $timestamps = false;
 
-    public static function search($title, $genre) {
-
-        $movies = Movie::with('movie', 'genre', 'device');
-
-        if($title) {
-            $movies->where('title', 'LIKE', "%$title%");
-        }
-        if($genre != 'all') {
-            $movies->where('genre_id','=', "$genre");
-        }
-
-        return $movies->take(30)->get();
-    }
-
-
     public static function searchUserMovies($title, $user_id, $genre) {
         $movies = User::find($user_id)
             ->movies()
-            ->where('title', 'LIKE', "%$title%")
-            ->where('genre_id', '=', "$genre")
-            ->get();
-        return $movies;
+            ->where('title', 'LIKE', "%$title%");
+
+        if($genre != '0') {
+            $movies->where('genre_id', '=', "$genre");
+        }
+        return $movies->orderBy('title')->get();
     }
 
     public static function userMovies($user_id) {
-        $movies = User::find($user_id)->movies;
+        $movies = User::find($user_id)->movies->sortBy('title');
         return $movies;
     }
 
@@ -37,7 +24,7 @@ class Movie extends Eloquent{
     public static function validate($input) {
 
         return Validator::make($input, [
-            'movie_name' => 'required|min:2',
+            'title' => 'required|min:2|unique:movies',
             'genre_id' => 'required|integer',
             'device_id' => 'required|integer',
         ]);

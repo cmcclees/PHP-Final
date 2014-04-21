@@ -63,10 +63,11 @@ a {
 #nav {
     position: relative;
     overflow: hidden;
-    margin: 0 auto 0;
+    margin: auto;
     display: block;
     background-color: #828282;
-    width:50%;
+    width:75%;
+
 }
 
 #nav ul {

@@ -8,10 +8,18 @@
 
 class LoginController extends BaseController {
 
+    /*shows login page*/
     public function showLogin() {
         return View::make('users/login');
     }
 
+    /*
+     * validates the login user input
+     * if not valid: goes back to login
+     * if valid: attempt to login
+     *      if a user go to dashboard
+     *      if attempt fails go to login
+     * */
     public function processLogin() {
         // validate the info, create rules for the inputs
         $rules = array(
@@ -52,22 +60,27 @@ class LoginController extends BaseController {
         }
     }
 
+    /*logs the user out and returns to login page*/
     public function logout() {
         Auth::logout();
         return Redirect::to('login');
     }
 
+    /* shows the register page to user*/
     public function register() {
         return View::make('users/register');
     }
 
+    /*
+     * validating input when creating a new user
+     * if invalid: go back to register page
+     * if valid: go to login page
+     * */
     public function processRegister() {
-        /*
-        * validation rules for creating a user
-        */
+        // validation rules for creating a user
         $rules = array(
             'username'=>'required|alpha_num|min:3',
-            'email'=>'email|unique:users',
+            'email'=>'required|email|unique:users',
             'password'=>'required|alpha_num|between:6,12|confirmed',
             'password_confirmation'=>'required|alpha_num|between:6,12'
         );

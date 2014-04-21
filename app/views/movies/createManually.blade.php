@@ -8,16 +8,9 @@
 
 {{ Form::open(array('url' => 'insertMovie')) }}
 
-<!-- if there are login errors, show them here -->
 <p>
-    {{ $errors->first('movie_name') }}
-    {{ $errors->first('genre_id') }}
-    {{ $errors->first('device_id') }}
-</p>
-
-<p>
-    {{ Form::label('movie_title', 'Movie Title: ') }}
-    {{ Form::text('movie_name', Input::old('movie_name'), array('placeholder' => 'ex: The Avengers')) }}
+    {{ Form::label('title', 'Movie Title: ') }}
+    {{ Form::text('title', Input::old('title'), array('placeholder' => 'ex: The Avengers')) }}
 </p>
 <p>
     {{ Form::label('genre', 'Genre: ') }}

@@ -5,7 +5,7 @@
 @stop
 
 @section('content')
-
+<p><a href="{{ URL::route('createMovieManually') }}">Insert Movie manually</a></p>
 {{ Form::open(array('url' => 'addMovie')) }}
 
 <!-- if there are login errors, show them here -->
@@ -14,8 +14,8 @@
 </p>
 
 <p>
-    {{ Form::label('movie_name', 'Movie Title: ') }}
-    {{ Form::text('movie_name', Input::old('movie_name'), array('placeholder' => 'ex: The Avengers')) }}
+    {{ Form::label('title', 'Movie Title: ') }}
+    {{ Form::text('title', Input::old('title'), array('placeholder' => 'ex: The Avengers')) }}
 </p>
 
 <p>{{ Form::submit('Submit!') }}</p>

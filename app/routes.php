@@ -25,10 +25,18 @@ Route::post('login', array('as'=>'login','uses'=> 'LoginController@processLogin'
 Route::get('register', array('as' => 'register', 'uses' => 'LoginController@register'));
 Route::post('register', array('as'=>'register', 'uses' => 'LoginController@processRegister'));
 
+Route::get('dashboard', array('as'=>'dashboard','uses'=>'MovieController@dashboard'))->before('auth');
+
+
+Route::resource('users', 'UserController');
+Route::resource('movies', 'MovieController');
+
+
+
 Route::get('logout', array('as'=>'logout','uses'=> 'LoginController@logout'))->before('auth');
 
 
-Route::get('dashboard', array('as'=>'dashboard','uses'=>'MovieController@dashboard'))->before('auth');
+
 Route::get('movieSearch', array('as'=>'movieSearch','uses'=> 'MovieController@search'))->before('auth');
 Route::get('watchedMovieList', array('as'=>'watchedMovieList','uses'=>'MovieController@listWatchedMovies'))->before('auth');
 

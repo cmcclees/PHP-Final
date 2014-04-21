@@ -9,7 +9,7 @@
 class ItunesController extends BaseController {
 
     public function movieProcess() {
-        $title = Input::get('movie_name');
+        $title = Input::get('title');
         $encoded = urlencode($title);
         $imdb = new \Itp\Api\ItunesSearch();
         $json = $imdb->getResults($encoded);

@@ -1,6 +1,9 @@
 <html>
 <head>
     {{ HTML::style('/css/style.css') }}
+    @section('head')
+    @show
+
 </head>
 <body>
 @section('sidebar')
@@ -18,15 +21,15 @@
             <li><a href="{{ URL::route('movieSearch') }}">Search My Movies</a></li>
             <li><a href="{{ URL::route('addMovie')}}">Add Movie</a></li>
             <li><a href="{{ URL::route('watchedMovieList') }}">Watched Movies</a></li>
+            @if(Auth::user()->email == 'dtang@usc.edu')
+            <li><a href="{{ URL::to('users') }}">Manage Users</a></li>
+            <li><a href="{{ URL::to('movies') }}">Manage Movies</a></li>
+            @endif
             <li><a href="{{ URL::route('logout') }}">Logout</a></li>
             @endif
         </ul>
     </div><!-- end nav -->
 
-    <!-- check for error flash var -->
-    <!--@if (Session::has('flash_error'))
-    <div id="flash_error">{{ Session::get('flash_error') }}</div>
-    @endif-->
     <!-- check for flash notification message -->
     @if(Session::has('flash_notice'))
     <div id="flash_notice">{{ Session::get('flash_notice') }}</div>
